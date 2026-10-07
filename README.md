@@ -168,7 +168,7 @@ superclaude-field-guide/
 |-------|-------|
 | **[Debugging Field Manual](https://Made-in-Jurgistan.github.io/debugging-field-manual/)** | Cross-platform debugging, AI-augmented workflows, 29 sections |
 | **[Mobile Speech-to-Text Engineering Guide](https://Made-in-Jurgistan.github.io/mobile-stt-engineering-guide/)** | On-device speech-to-text: audio capture, VAD, model inference, post-processing |
-| **[Android Keyboard Design Guide](https://Made-in-Jurgistan.github.io/android-keyboard-design-guide/)** | Production IME development, API 30–36, Material You 3.0 |
+| **[Android Keyboard Design Guide](https://Made-in-Jurgistan.github.io/android-keyboard-design-guide/)** | Production IME development, API 30–37, Material You 3.0 |
 | **[Android Keyboard Design Guide: 3D & Personalization](https://Made-in-Jurgistan.github.io/android-keyboard-design-guide-3d-personalization/)** | 3D rendering, PBR materials, custom themes, game engine bridges |
 
 ---
