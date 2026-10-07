@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this guide in your work, please cite it as below."
+title: "The SuperClaude Field Guide"
+type: software
+authors:
+  - name: "Made in Jurgistan"
+    website: "https://Made-in-Jurgistan.github.io"
+repository-code: "https://github.com/Made-in-Jurgistan/superclaude-field-guide"
+url: "https://Made-in-Jurgistan.github.io/superclaude-field-guide/"
+version: "4.0"
+date-released: "2026-10-03"
+license: CC-BY-SA-4.0
+keywords:
+  - SuperClaude
+  - Claude Code
+  - slash commands
+  - AI agents
+  - Model Context Protocol
+  - MCP servers
+  - developer workflows
+  - prompt engineering
+  - cheat sheet
+abstract: "A complete, beginner-friendly field guide to SuperClaude v4.3.0 for Claude Code: installation, 30 commands, 19 specialists, 7 modes, 10 MCP tools, flags, house rules and 59 command recipes, with eight printable cheat sheets."
