@@ -4,7 +4,7 @@
 
 ### Commands · Specialists · Modes · MCP Tools · Recipes for Claude Code
 
-**24 Chapters · 30 Commands · 19 Specialists · 7 Modes · 10 MCP Tools · 59 Recipes · 8 Cheat Sheets**
+**24 Sections · 30 Commands · 19 Specialists · 7 Modes · 10 MCP Tools · 59 Recipes · 8 Cheat Sheets**
 
 [![Version](https://img.shields.io/badge/edition-4.0-5b2a8c?style=flat-square)](https://Made-in-Jurgistan.github.io/superclaude-field-guide/)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-5b2a8c?style=flat-square)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -28,7 +28,7 @@
 
 | # | Section | Group | Focus |
 |---|---------|-------|-------|
-| 00 | How to Use This Guide | Orientation | Reading paths, safety and level labels, how commands are shown |
+| — | How to Use This Guide | Orientation | Reading paths, safety and level labels, how commands are shown |
 | 01 | What SuperClaude Is | Get Started | The five building blocks, what happens when you type a command |
 | 02 | Install and Set Up | Get Started | Python 3.10+, `pipx`, `superclaude install`, MCP add-ons, updating, Windows |
 | 03 | Your First Session | Get Started | A safe twenty-minute walk-through and a daily routine |
@@ -39,7 +39,7 @@
 | 08 | Helper Tools (MCP Servers) | The Toolkit | Context7, Sequential, Magic, Playwright, Serena, Tavily and four others |
 | 09 | Flags: The Fine-Tuning Dials | The Toolkit | Thinking depth, tool switches, execution control, precedence rules |
 | 10 | The House Rules | The Toolkit | Git safety, root-cause fixes, scope discipline, professional honesty |
-| 11 | Find the Right Recipe | Recipes | Situation finder: “I want to…” → the recipe that fits |
+| 11 | Find the Right Recipe | Recipes | Situation finder: "I want to…" → the recipe that fits |
 | 12 | Starting and Planning | Recipes | P1–P6: new projects, specs, go/no-go checks, MVP scoping |
 | 13 | Building Features | Recipes | B1–B10: full-stack features, APIs, components, migrations, tests |
 | 14 | Fixing Problems | Recipes | F1–F11: bugs, production incidents, broken builds, slow pages, leaks |
@@ -60,11 +60,11 @@ Eight A4 landscape pages designed to be printed and kept beside the keyboard: [`
 
 | Page | Sheet | Contents |
 |------|-------|----------|
-| 1 | All 30 Commands | One colour-coded note per command, grouped Start · Plan · Build · Check + fix · Explain · Memory · Experts |
+| 1 | All 30 Commands | One color-coded note per command, grouped Start · Plan · Build · Check + fix · Explain · Memory · Experts |
 | 2 | All 19 Specialists | The `@agent-…` name, what each one does and when to call it |
 | 3 | Modes · MCP Tools · Flags | The 7 modes, 10 helper tools with requirements, and every flag by category |
-| 4–6 | Power Combos | 24 fast, targeted command sequences (dark mode, accessibility sweep, incidents, RAG, releases…) |
-| 7–8 | Nuclear Combos | 8 maximum-depth sequences with every tool, for audits, rebuilds and impossible bugs |
+| 4–6 | Power Combos | 24 fast, targeted command sequences (C1–C24) (dark mode, accessibility sweep, incidents, RAG, releases…) |
+| 7–8 | Nuclear Combos | 8 maximum-depth sequences (N1–N8) with every tool, for audits, rebuilds and impossible bugs |
 
 ---
 
@@ -86,10 +86,10 @@ Eight A4 landscape pages designed to be printed and kept beside the keyboard: [`
 ## <img src="https://api.iconify.design/lucide:sparkles.svg?color=%235b2a8c" width="20" height="20" alt="" /> Guide Features
 
 - **<img src="https://api.iconify.design/lucide:ruler.svg?color=%235b2a8c" width="16" height="16" alt="" /> Print-Ready** — Designed print-first on A4: running headers per part, page numbers, part dividers, and break rules that never split a step; ships as a tagged PDF with bookmarks
-- **<img src="https://api.iconify.design/lucide:accessibility.svg?color=%235b2a8c" width="16" height="16" alt="" /> WCAG 2.2 AA** — Skip link, `:focus-visible` outlines, reduced-motion support, text labels on every colour cue, keyboard-scrollable tables, reflow at 320 px; zero axe-core violations
+- **<img src="https://api.iconify.design/lucide:accessibility.svg?color=%235b2a8c" width="16" height="16" alt="" /> WCAG 2.2 AA** — Skip link, `:focus-visible` outlines, reduced-motion support, text labels on every color cue, keyboard-scrollable tables, reflow at 320 px; zero axe-core violations
 - **<img src="https://api.iconify.design/lucide:search.svg?color=%235b2a8c" width="16" height="16" alt="" /> SEO Optimized** — Open Graph and social card, JSON-LD `TechArticle` structured data, canonical URL
 - **<img src="https://api.iconify.design/lucide:palette.svg?color=%235b2a8c" width="16" height="16" alt="" /> Editorial Design** — Lora (display) · DM Sans (body) · JetBrains Mono (code); warm paper palette with royal purple accent (`#5b2a8c`)
-- **<img src="https://api.iconify.design/lucide:smartphone.svg?color=%235b2a8c" width="16" height="16" alt="" /> Responsive** — Sticky sidebar with live chapter filter, mobile menu, one-click copy buttons on every code block
+- **<img src="https://api.iconify.design/lucide:smartphone.svg?color=%235b2a8c" width="16" height="16" alt="" /> Responsive** — Sticky sidebar with live section filter, mobile menu, one-click copy buttons on every code block
 - **<img src="https://api.iconify.design/lucide:shield-check.svg?color=%235b2a8c" width="16" height="16" alt="" /> Verified Against Source** — Checked against `SuperClaude-Org/SuperClaude_Framework` at commit `fe68862` and the v4.3.0 PyPI package
 - **<img src="https://api.iconify.design/lucide:list-checks.svg?color=%235b2a8c" width="16" height="16" alt="" /> Companion Cheat Sheets** — Eight printable A4 landscape sheets covering every command, specialist, mode, tool, flag and combo
 
@@ -117,7 +117,7 @@ python -m http.server 8000
 
 ### Download the PDFs
 
-Ready-made print editions are in [`pdf/`](pdf/): [`SuperClaude_Field_Guide.pdf`](pdf/SuperClaude_Field_Guide.pdf) (58 pages, A4 portrait) and [`SuperClaude_Cheat_Sheets.pdf`](pdf/SuperClaude_Cheat_Sheets.pdf) (8 pages, A4 landscape).
+Ready-made print editions are in [`pdf/`](pdf/): [`SuperClaude_Field_Guide.pdf`](pdf/SuperClaude_Field_Guide.pdf) (59 pages, A4 portrait) and [`SuperClaude_Cheat_Sheets.pdf`](pdf/SuperClaude_Cheat_Sheets.pdf) (8 pages, A4 landscape).
 
 ### Print to PDF
 
@@ -166,10 +166,10 @@ superclaude-field-guide/
 
 | Guide | Focus |
 |-------|-------|
-| **[Debugging Field Manual](https://Made-in-Jurgistan.github.io/debugging-field-manual/)** | Cross-platform debugging, AI-augmented workflows, 30 sections |
-| **[Mobile STT Engineering Guide](https://Made-in-Jurgistan.github.io/mobile-stt-engineering-guide/)** | On-device speech-to-text: audio capture, VAD, model inference, post-processing |
+| **[Debugging Field Manual](https://Made-in-Jurgistan.github.io/debugging-field-manual/)** | Cross-platform debugging, AI-augmented workflows, 29 sections |
+| **[Mobile Speech-to-Text Engineering Guide](https://Made-in-Jurgistan.github.io/mobile-stt-engineering-guide/)** | On-device speech-to-text: audio capture, VAD, model inference, post-processing |
 | **[Android Keyboard Design Guide](https://Made-in-Jurgistan.github.io/android-keyboard-design-guide/)** | Production IME development, API 30–36, Material You 3.0 |
-| **[Android Keyboard: 3D & Personalization](https://Made-in-Jurgistan.github.io/android-keyboard-design-guide-3d-personalization/)** | 3D rendering, PBR materials, custom themes, game engine bridges |
+| **[Android Keyboard Design Guide: 3D & Personalization](https://Made-in-Jurgistan.github.io/android-keyboard-design-guide-3d-personalization/)** | 3D rendering, PBR materials, custom themes, game engine bridges |
 
 ---
 
