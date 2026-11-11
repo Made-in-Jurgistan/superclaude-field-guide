@@ -232,6 +232,7 @@ Made in Jurgistan. (2026). The SuperClaude Field Guide (Version 4.0) [Computer s
 
 > **Note:** A `CITATION.cff` file at the repository root also enables GitHub's built-in "Cite this repository" button (right sidebar on the repo page), which auto-generates APA and BibTeX citations from the same metadata.
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/made-in-jurgistan/superclaude-field-guide)](https://m8ven.ai/mcp/made-in-jurgistan/superclaude-field-guide?s=readme)
 ---
 
 <div align="center">
